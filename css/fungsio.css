@@ -1,0 +1,185 @@
+/* Untuk menyetel style ke semua */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+    text-decoration: none;
+    font-family: "poppins";
+    scroll-behavior: smooth;
+}
+
+/* untuk style home bagian body */
+body{
+    background-color: #0e151b;
+    /* height: 1000vh; */
+}
+
+/* style tag nav*/
+nav{
+    /* background-color: red; */
+    background-color: #0e151b;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+/* nav bagian pembungkus navbar */
+.pembungkus-navbar{
+    /* background-color: aqua;  */
+    padding-block: 5px;
+    width: 93%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 4%;
+    overflow: hidden;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-left: 100px;
+}
+.menu a{
+    color: #F8F9FA;
+    font-weight: 600;
+}
+.menu a:hover{
+    color: #5F1BBB;
+    transform: scale(0.95);
+    transition: all .2s ease-in-out;
+}
+
+.masuk{
+    background-color: #5F1BBB;
+    padding: 5px 40px;
+    color: #F8F9FA;
+    font-weight: 600;
+    border-radius: 50px;
+}
+.masuk:hover{
+    transform: scale(0.90);
+    transition: all .26 ease-in-out;
+}
+/* End navbar */
+
+
+/* Fungsionaris */
+.fungsio{
+    margin-top: 130px;
+    text-align: center;
+    color: #F8F9FA;
+}
+
+.inti{
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+}
+
+.inti h2{
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.bagian-inti{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-block: 40px;
+}
+
+.kotak{
+    background-color: #19242E;
+    width: 215px;
+    margin: 10px;position: relative;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+}
+
+.nama{
+    background-color: #19242E;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    padding-block: 7px;
+    font-size: 15px;
+}
+
+.kotak:hover{
+    transform: scale(1.08);
+    transition: all .3s ease-in-out;
+}
+/* end Fungsionaris */
+
+.back{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5F1BBB;
+    color: #F8F9FA;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.back:hover{
+    transform: scale(0.95);
+    transition: all .2s ease-in-out;
+}
+
+.back a{
+    margin-left: 10px;
+    color: #F8F9FA;
+}
+
+/* footer */
+footer{
+    background-color: #19242E;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sosmed{
+    width: 235px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 3px solid #F8F9FA;
+}
+
+.sosmed a{
+    color: #F8F9FA;
+}
+
+.sosmed a:hover{
+    transform: scale(0.95);
+    transition: all .2s ease-in-out;
+}
+
+.copyright{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    color: #F8F9FA;
+}
+/* end footer */

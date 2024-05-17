@@ -1,0 +1,420 @@
+/* Untuk menyetel style ke semua */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+    text-decoration: none;
+    font-family: "poppins";
+    scroll-behavior: smooth;
+}
+
+/* untuk style home bagian body */
+body{
+    background-color: #0e151b;
+    /* height: 1000vh; */
+}
+
+/* style tag nav*/
+nav{
+    /* background-color: red; */
+    background-color: #0e151b;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+/* nav bagian pembungkus navbar */
+.pembungkus-navbar{
+    /* background-color: aqua;  */
+    padding-block: 5px;
+    width: 93%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 4%;
+    overflow: hidden;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-left: 100px;
+}
+.menu a{
+    color: #F8F9FA;
+    font-weight: 600;
+}
+.menu a:hover{
+    color: #5F1BBB;
+    transform: scale(0.95);
+    transition: all .2s ease-in-out;
+}
+
+.masuk{
+    background-color: #5F1BBB;
+    padding: 5px 40px;
+    color: #F8F9FA;
+    font-weight: 600;
+    border-radius: 50px;
+}
+.masuk:hover{
+    transform: scale(0.90);
+    transition: all .26 ease-in-out;
+
+}
+
+/* End navbar */
+
+
+/* hero section */
+.hero{
+    /* background-color: red; */
+    margin-top: 100px;
+}
+
+.bungkus-hero{
+    /* background-color: aqua; */
+    width: 95%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.margin-utama{
+    /* background-color: #5F1BBB; */
+    display: flex;
+    align-items: center;
+}
+
+.kiri-hero{
+    width: 60%;
+    /* background-color: aqua; */
+}
+
+.kiri-hero h4{
+    color: #F8F9FA;
+    font-weight: 500;
+    font-size: 20px;
+}
+.kiri-hero h2{
+    color: #F8F9FA;
+    font-weight: 600;
+    font-size: 40px;
+}
+.kiri-hero h5{
+    color: #F8F9FA;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.button-hero{
+    margin-top: 30px;
+    background-color: #5F1BBB;
+    width: 300px;
+    padding-block: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.button-hero a{
+    /* background-color: #F8F9FA; */
+    color: #F8F9FA;
+    font-weight: 600;
+    margin-inline: 45px;
+}
+.button-hero i{
+    background-color: #F8F9FA;
+    padding: 11px;
+    border-radius: 50%;
+}
+
+
+.button-hero:hover{
+    transform: scale(0.95);
+    transition: all .2s ease-in-out;
+}
+
+.kanan-hero{
+    width: 60%;
+    /* background-color: #F8F9FA; */
+    overflow: hidden;
+}
+
+.kanan-hero img{
+    width: 100%;
+}
+
+.bagian-pendukung{
+    /* background-color: red; */
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F8F9FA;
+}
+.bagian-pendukung p{
+    color: #F8F9FA;
+     padding: 20px;
+     font-size: 20px;
+     font-style: italic;
+     font-weight: 500;
+     text-align: center;
+     margin-top: 45px;
+}
+
+/* end hero section */
+
+.divisi .section-divisi{
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+    margin-top: 130px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.divisi .section-divisi-pendukung{
+    font-weight: 400;
+    margin: auto;
+    padding-block: 50px;
+    color: white;
+    width: 45%;
+    text-align: center;
+}
+
+.bagian-utama-divisi{
+    width: 65%;
+    padding-top: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-divisi{
+    border: 2px solid #F8F9FA;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 5px;
+    width: 330px;height: 300px;
+    position: relative;
+}
+
+.logo-divisi{
+    background-color: #F8F9FA;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    top: -50px;
+    left: 115px;
+    color: #333;
+}
+
+.nama-divisi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #F8F9FA;
+    padding-inline: 10px;
+}
+
+.card-divisi:hover{
+    transform: scale(1.05);
+    transition: all .3s ease-in-out;
+}
+/* end divisi */
+
+/* Proker */
+.proker{
+    margin-top: 80px;
+    padding: 10px;
+
+}
+.section-proker{
+    font-weight: 80px;
+    text-align: center;
+    color: #F8F9FA;
+    font-size: 35px;
+    padding-top: 120px;
+}
+
+.section-proker-pendukung{
+    font-weight: 400px;
+    text-align: center;
+    color: #F8F9FA;
+    padding-top: 30px;
+}
+
+.bagian-proker{
+    width: 93%;
+    margin: auto;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-block: 150px;
+}
+
+.card{
+    color: #F8F9FA;
+    border: 2px solid #F8F9FA;;
+    width: 360px;
+    position: relative;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+.logo-proker{
+    position: absolute;
+    background-color: #F8F9FA;;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -60px;
+    left: 135px;
+
+}
+
+.logo-proker img{
+    width: 80%;
+
+}
+
+.nama-proker{
+    text-align: center;
+    margin: 50px 0 20px;
+}
+
+.deskripsi-proker{
+    text-align: justify;
+    padding: 15px;
+}
+/* end proker */
+
+
+/* fungsio */
+.bagian-fungsio{
+    width: 93%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    
+}
+
+.deskripsi-fungsio{
+    width: 45%;
+    padding: 30px;
+}
+
+.deskripsi-fungsio h2{
+    color: #F8F9FA;
+    font-size: 40px;
+}
+
+.deskripsi-fungsio h5{
+    color: #F8F9FA;
+    padding-block: 20px;
+}
+
+.gambar-fungsio{
+    overflow: hidden;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gambar-fungsio img{
+    width: 150%;
+}
+
+
+.tombol-fungsio{
+    background-color: #5F1BBB;
+    width: 245px;
+    padding-block: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.tombol-fungsio a{
+    /* background-color: #F8F9FA; */
+    color: #F8F9FA;
+    font-weight: 600;
+    margin-inline: 25px;
+}
+.tombol-fungsio i{
+    background-color: #F8F9FA;
+    color: #5F1BBB;
+    padding: 11px;
+    border-radius: 50%;
+}
+
+.tombol-fungsio:hover{
+    transform: scale(0.95);
+    transition: all .2s ease-in-out;
+}
+/* end fungsio */
+
+/* footer */
+footer{
+    background-color: #19242E;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sosmed{
+    width: 235px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 3px solid #F8F9FA;
+}
+
+.sosmed a{
+    color: #F8F9FA;
+}
+
+.sosmed a:hover{
+    transform: scale(0.95);
+    transition: all .2s ease-in-out;
+}
+
+.copyright{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    color: #F8F9FA;
+}
+/* end footer */

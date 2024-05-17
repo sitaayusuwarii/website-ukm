@@ -1,0 +1,202 @@
+/* Untuk menyetel style ke semua */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+    text-decoration: none;
+    font-family: "poppins";
+    scroll-behavior: smooth;
+}
+
+/* untuk style home bagian body */
+body{
+    background-color: #0e151b;
+    /* height: 1000vh; */
+}
+
+/* style tag nav*/
+nav{
+    /* background-color: red; */
+    background-color: #0e151b;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+/* nav bagian pembungkus navbar */
+.pembungkus-navbar{
+    /* background-color: aqua;  */
+    padding-block: 5px;
+    width: 93%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 4%;
+    overflow: hidden;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-left: 100px;
+}
+.menu a{
+    color: #F8F9FA;
+    font-weight: 600;
+}
+.menu a:hover{
+    color: #5F1BBB;
+    transform: scale(0.95);
+    transition: all .2s ease-in-out;
+}
+
+.masuk{
+    background-color: #5F1BBB;
+    padding: 5px 40px;
+    color: #F8F9FA;
+    font-weight: 600;
+    border-radius: 50px;
+}
+.masuk:hover{
+    transform: scale(0.90);
+    transition: all .26 ease-in-out;
+}
+/* End navbar */
+
+/* informasi */
+.informasi{
+    width: 95%;
+    margin: 100px auto 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #19242E;
+}
+
+.gambar-web{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.gambar-web img{
+    width: 100%;
+}
+
+.informasi-web{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-bottom: 30px;
+    color: #F8F9FA;
+}
+
+.informasi-web .tujuan {
+    margin: 30px;
+    width: 600px;
+}
+
+.informasi-web .fungsio{
+    margin: 30px;
+    width: 550px;
+}
+
+.informasi-web h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.informasi-web p{
+    font-size: 17px;
+}
+
+.body-deskripsi{
+    margin: 30px;
+}
+
+.deskripsi{
+    color: #F8F9FA;
+    text-align: justify;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5F1BBB;
+    color: #F8F9FA;
+    border-radius: 10px;
+    width: 110px;
+    height: 40px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.back a{
+    color: #F8F9FA;
+    margin-left: 10px;
+
+}
+
+.back:hover{
+    transform: scale(0.95);
+    transition: all .2s ease-in-out;
+}
+/* end informasi */
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    background-color: #19242E;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sosmed{
+    width: 235px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 3px solid #F8F9FA;
+}
+
+.sosmed a{
+    color: #F8F9FA;
+}
+
+.sosmed a:hover{
+    transform: scale(0.95);
+    transition: all .2s ease-in-out;
+}
+
+.copyright{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    color: #F8F9FA;
+}
+/* end footer */
